@@ -16,3 +16,4 @@ Route::post('/payroll/calculate', [PayrollController::class, 'calculate']);
 Route::apiResource('products', ProductController::class);
 Route::get('/v1/categories', [CategoryController::class, 'index']);
 Route::apiResource('/posts', PostController::class);
+
